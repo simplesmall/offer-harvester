@@ -1,7 +1,7 @@
 import time
 
 source = [1, 2, 3, 5, 4, 3, 5, 2, 5, 6]
-print(source)
+print("Input list:\n",source)
 
 # 方法一: 两层循环,将
 beginMe1 = time.time()
@@ -19,8 +19,8 @@ for i in source:
         temp_max = temp_index
         val_max = source[temp_max]
 
-print(time.time()- beginMe1,counterMe1)
-print(val_max, temp_max)
+print("Methods1 spend time:",time.time()- beginMe1," Excute times:",counterMe1)
+print("max_val  counter: ",val_max, temp_max)
 
 # 方法二: 先将各个数字以字典形式计数,再遍历字典查出次数最多的元素
 beginMe2 = time.time()
@@ -47,8 +47,8 @@ for i in dict:
         counter = dict[i]
         max_val = i
 
-print(time.time()-beginMe2,counterMe2)
-print(max_val,counter)
-print(dict)
+print("Methods2 spend time:",time.time()-beginMe2," Excute times:",counterMe2)
+print("max_val  counter: ",max_val,counter)
+print("Dictionary of element & counter:\n",dict)
 
 
