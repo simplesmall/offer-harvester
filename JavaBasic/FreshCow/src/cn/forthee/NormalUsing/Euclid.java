@@ -1,7 +1,8 @@
-package cn.forthee.algorithm.chapter1;
+package cn.forthee.NormalUsing;
+
 /**
  * Author by 简小
- * Created on lucky 2020/9/9.
+ * Created on lucky 2020/9/10  10:01.
  */
 public class Euclid {
     public static int gcd(int p, int q) {
