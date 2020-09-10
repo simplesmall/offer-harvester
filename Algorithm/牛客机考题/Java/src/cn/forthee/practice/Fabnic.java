@@ -1,3 +1,5 @@
+package cn.forthee.practice;
+
 public class Fabnic {
     public static int Fab(int n){
         if (n<3){
