@@ -3,6 +3,7 @@ package cn.forthee.DataType.Charter2.ArrayPart;
 /**
  * @author 简小
  * @create 2020-09-12 22:18
+ * 一维数组
  */
 public class NewArray {
     public static void main(String[] args) {
