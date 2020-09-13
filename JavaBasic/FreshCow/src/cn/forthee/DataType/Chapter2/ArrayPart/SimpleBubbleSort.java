@@ -1,4 +1,4 @@
-package cn.forthee.DataType.Charter2.ArrayPart;
+package cn.forthee.DataType.Chapter2.ArrayPart;
 
 /**
  * @author 简小
